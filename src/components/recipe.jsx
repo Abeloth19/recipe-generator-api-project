@@ -54,7 +54,7 @@ function App() {
       {isLoading && <div className="loading">Loading recipes...</div>}
       {errorMsg && <div className="error">{errorMsg}</div>}
       {!isLoading && !errorMsg && recipes.length === 0 && (
-        <div className="no-results">No results found for "{query}"</div>
+        <div className="no-results">No Results Found For "{query}"</div>
       )}
       {!isLoading &&
         !errorMsg &&
