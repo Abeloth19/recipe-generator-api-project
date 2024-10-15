@@ -102,7 +102,7 @@ function App() {
               rel="noopener noreferrer"
               className="recipe-link"
             >
-              View recipe
+              View Recipe
             </a>
           </div>
         ))}
